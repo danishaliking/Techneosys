@@ -1,0 +1,507 @@
+@font-face {
+    font-family: 'Cerebri Sans Pro';
+    src: url('../fonts/CerebriSansPro-Regular.otf');
+}
+
+body {
+    font-family: 'Cerebri Sans Pro';
+    background: #EEF2F7;
+}
+
+span {
+    color: #0D328D;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.header .nav li {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Cerebri Sans Pro';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.container .bold {
+    font-family: 'Cerebri Sans Pro';
+    font-weight: 700;
+    font-size: 38px;
+    color: #0D328D;
+}
+
+/* navbar end */
+
+.level-section .over {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+
+.over-1 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(199, 199, 199, 0.25);
+}
+
+.container .c-1 {
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container .t-1 {
+    margin-top: 3rem;
+}
+
+.container .high {
+    color: #0D328D;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.container .para {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.container .button {
+    margin-top: 10px;
+    color: #ffffff;
+    border: none;
+    background: #0D328D;
+    box-shadow: 2px 4px 4px 2px rgba(140, 140, 140, 0.25);
+    border-radius: 5px;
+    padding: 12px 45px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.top-button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.contact-section .container {
+    position: relative;
+}
+
+.contact-section .container .row {
+    position: relative;
+}
+
+.contact-section .container .content {
+    background-image: url('../images/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 4px 4px rgba(120, 120, 120, 0.25);
+    color: white;
+}
+
+.contact-section .container .row {
+    margin-right: 0px;
+}
+
+.sha>.content::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #0312389c;
+    background: linear-gradient(277.31deg, rgba(50, 76, 139, 0.8) 7.95%, rgba(0, 0, 0, 0.8) 48.48%, rgba(0, 24, 84, 0.8) 102.89%);
+}
+
+.heading {
+    display: flex;
+}
+
+.line {
+    border: 1px solid #0D328D;
+}
+
+.font {
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    color: #818995;
+}
+
+.footer-section .box {
+    list-style: none;
+}
+
+.box {
+    display: grid;
+    gap: 1.5rem;
+}
+
+a {
+    color: #000;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-section .box-1 a {
+    text-decoration: none;
+}
+
+.head {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.m-left {
+    margin-left: 30px;
+}
+
+/* foter section */
+.footer-section .line {
+    /* width: 959px; */
+    margin-top: 20px;
+    border: 3px solid #0D328D;
+    opacity: 1;
+    box-shadow: 2px 4px 4px 3px rgba(157, 157, 157, 0.25);
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.footer-section .circle-img {
+    z-index: 1;
+}
+
+.footer-section img {
+    max-width: 90%;
+}
+
+.contact-section .sha {
+    z-index: 2;
+}
+
+.box-1 li {
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.footer-section .box-2 i {
+    color: #0D328D;
+    margin-right: 10px;
+}
+
+
+.footer-section .box-2 li {
+    list-style: none;
+    margin: 20px 0px;
+    align-items: baseline;
+}
+
+.footer-section .box-2 a {
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 255, 0.685);
+    color: #fff;
+    text-align: center;
+}
+
+/* main */
+.main-head {
+    background-image: url('../images/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-head .row {
+
+    min-height: 690px;
+    align-items: center;
+}
+
+.main-head .container-fluid .head-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.main-head .container-fluid .btn {
+    margin-left: 50px;
+    background: #FFFFFF;
+    padding: 10px 50px;
+    box-shadow: 3px 4px 4px 4px rgba(73, 73, 73, 0.25);
+    border-radius: 5px;
+}
+
+/* 2nd section */
+.level-section .danish {
+    padding-bottom: 200px;
+}
+
+.level-section .difficulty .card {
+    width: 192px;
+    height: 177px;
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 10px 20px;
+    position: absolute;
+    left: 300px;
+    top: -30px;
+    z-index: 1;
+}
+
+.level-section .difficulty .first {
+    position: absolute;
+    left: 140px;
+    z-index: 2;
+    top: 80px;
+}
+
+.level-section .difficulty .second {
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    position: absolute;
+    left: 430px;
+    z-index: 2;
+    top: 110px;
+}
+
+.level-section .difficulty .third {
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    position: absolute;
+    left: -20px;
+    z-index: 2;
+    top: 200px;
+}
+
+.level-section .difficulty .four {
+    background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+    position: absolute;
+    left: 280px;
+    z-index: 1;
+    top: 265px;
+}
+
+.level-section .difficulty .five {
+    background: linear-gradient(180deg, #0D328D 0%, #021C5B 100%);
+    position: absolute;
+    left: 110px;
+    z-index: 4;
+    top: 365px;
+}
+
+.level-section .difficulty i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* card section */
+.card-section .card img {
+    max-width: 80%;
+}
+
+.card-section .row {
+    margin-top: -180px;
+    margin-bottom: 60px;
+}
+
+.card-section .mw-1 {
+    margin: 15px auto;
+    min-height: 246px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px 4px rgba(206, 204, 204, 0.25);
+    border-radius: 10px;
+}
+
+.card-section .mw-1 p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* section -2 */
+@media (max-width:1200px) {
+    .navbar .nav-link {
+        font-size: 18px;
+    }
+
+    .header .nav li {
+        text-align: center;
+        margin-bottom: 0px;
+        font-family: 'Cerebri Sans Pro';
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .level-section .difficulty .card {
+        min-width: 178px;
+        max-height: 157px;
+        background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+        border-radius: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+        margin: 10px 20px;
+        position: relative;
+        left: 30px;
+        top: -5px;
+    }
+
+    .level-section .danish {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 47.666667%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .top-head {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .circle-img {
+        visibility: hidden;
+    }
+
+    .whole {
+        text-align: center;
+    }
+
+    .footer-section .md {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section .line {
+        border: 3px solid #0D328D;
+        opacity: 1;
+        box-shadow: 2px 4px 4px 3px rgba(157, 157, 157, 0.25);
+        border-radius: 20px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-head .row {
+        min-height: 630px;
+        align-items: start;
+        padding-top: 80px;
+    }
+
+    .main-head .container-fluid .head-text {
+        align-items: start;
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footer-section .end-footer {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .level-section .danish-1 {
+        margin-top: 50px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .main-head .row {
+        min-height: 501px;
+        align-items: start;
+        padding-top: 80px;
+    }
+
+    .main-head .container-fluid .head-text {
+        align-items: start;
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .row {
+        --bs-gutter-x: 0px;
+        --bs-gutter-y: 0;
+    }
+
+    .level-section .difficulty .card {
+        width: auto;
+        left: 0px;
+    }
+
+    .container .para {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
